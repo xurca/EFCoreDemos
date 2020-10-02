@@ -28,9 +28,9 @@ PM> Install-package Microsoft.EntityFrameworkCore.Tools.DotNet
 PM> Install-Package Microsoft.EntityFrameworkCore.SqlServer
 
 ## Learn
-https://www.learnentityframeworkcore.com/
-https://www.entityframeworktutorial.net/
-https://haacked.com/archive/2019/07/29/query-filter-by-interface/
+* https://www.learnentityframeworkcore.com/
+* https://www.entityframeworktutorial.net/
+* https://haacked.com/archive/2019/07/29/query-filter-by-interface/
 
 ## user defined function DbFunction
 ```SQL
