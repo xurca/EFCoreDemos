@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigrationsDemo", "MigrationsDemo\MigrationsDemo.csproj", "{B91374B6-4ECD-4038-BE4E-6401DCC4FC6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5FB52A8B-4BAB-4134-B360-EB7AEF03C7FF}"
+	ProjectSection(SolutionItems) = preProject
+		EF_Core_Cheat_Sheet.pdf = EF_Core_Cheat_Sheet.pdf
+		Entity Framework Core.pptx = Entity Framework Core.pptx
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B91374B6-4ECD-4038-BE4E-6401DCC4FC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91374B6-4ECD-4038-BE4E-6401DCC4FC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91374B6-4ECD-4038-BE4E-6401DCC4FC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91374B6-4ECD-4038-BE4E-6401DCC4FC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8224784-F140-4B24-95E2-D68C2624F7BD}
+	EndGlobalSection
+EndGlobal

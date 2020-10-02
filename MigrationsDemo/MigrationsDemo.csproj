@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200930103909_init.cs" />
+    <Compile Remove="Migrations\20200930103909_init.Designer.cs" />
+    <Compile Remove="Migrations\20201001150622_init.cs" />
+    <Compile Remove="Migrations\20201001150622_init.Designer.cs" />
+    <Compile Remove="Migrations\20201001150832_init.cs" />
+    <Compile Remove="Migrations\20201001150832_init.Designer.cs" />
+    <Compile Remove="Migrations\20201001151016_init.cs" />
+    <Compile Remove="Migrations\20201001151016_init.Designer.cs" />
+    <Compile Remove="Migrations\20201001152201_init.cs" />
+    <Compile Remove="Migrations\20201001152201_init.Designer.cs" />
+    <Compile Remove="Migrations\20201001154220_init.cs" />
+    <Compile Remove="Migrations\20201001154220_init.Designer.cs" />
+    <Compile Remove="Migrations\20201001155635_init.cs" />
+    <Compile Remove="Migrations\20201001155635_init.Designer.cs" />
+    <Compile Remove="Migrations\20201001160453_init.cs" />
+    <Compile Remove="Migrations\20201001160453_init.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="microsoft.entityframeworkcore.Tools" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+  </ItemGroup>
+
+</Project>
